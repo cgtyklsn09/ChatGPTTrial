@@ -1,0 +1,15 @@
+C:\Users\pc\source\repos\ChatGPTTrial2\bin\Debug\ChatGPTTrial2.exe.config
+C:\Users\pc\source\repos\ChatGPTTrial2\bin\Debug\ChatGPTTrial2.exe
+C:\Users\pc\source\repos\ChatGPTTrial2\bin\Debug\ChatGPTTrial2.pdb
+C:\Users\pc\source\repos\ChatGPTTrial2\bin\Debug\Newtonsoft.Json.Bson.dll
+C:\Users\pc\source\repos\ChatGPTTrial2\bin\Debug\Newtonsoft.Json.dll
+C:\Users\pc\source\repos\ChatGPTTrial2\bin\Debug\Newtonsoft.Json.xml
+C:\Users\pc\source\repos\ChatGPTTrial2\bin\Debug\Newtonsoft.Json.Bson.pdb
+C:\Users\pc\source\repos\ChatGPTTrial2\bin\Debug\Newtonsoft.Json.Bson.xml
+C:\Users\pc\source\repos\ChatGPTTrial2\obj\Debug\ChatGPTTrial2.csprojAssemblyReference.cache
+C:\Users\pc\source\repos\ChatGPTTrial2\obj\Debug\ChatGPTTrial2.Properties.Resources.resources
+C:\Users\pc\source\repos\ChatGPTTrial2\obj\Debug\ChatGPTTrial2.csproj.GenerateResource.cache
+C:\Users\pc\source\repos\ChatGPTTrial2\obj\Debug\ChatGPTTrial2.csproj.CoreCompileInputs.cache
+C:\Users\pc\source\repos\ChatGPTTrial2\obj\Debug\ChatGPTTrial2.csproj.CopyComplete
+C:\Users\pc\source\repos\ChatGPTTrial2\obj\Debug\ChatGPTTrial2.exe
+C:\Users\pc\source\repos\ChatGPTTrial2\obj\Debug\ChatGPTTrial2.pdb
