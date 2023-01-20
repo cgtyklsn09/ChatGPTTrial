@@ -78,7 +78,11 @@ namespace ChatGPTTrial2
 
             client.DefaultRequestHeaders.Add("authorization", "Bearer " + API_KEY);
 
-            var content = new StringContent("{\"model\": \"text-davinci-003\", \"prompt\": \"" + "Please give me a standalone 'public static void Main()' method in C# to " + inputTextBox.Text + " in current Inventor window. Get an active instance of Inventor by using that:  " + "InvApp.txt" + ". Ignore code descriptions or instructions." + "\",\"temperature\": 0,\"max_tokens\": 1000}", Encoding.UTF8, "application/json");
+            string request = inputTextBox.Text;
+            if (request.Contains("\n"))
+                request = request.Replace("\n", " ");
+
+            var content = new StringContent("{\"model\": \"text-davinci-003\", \"prompt\": \"" + "Please give me a standalone 'public static void Main()' method in C# to " + request + " in current Inventor window. Get an active instance of Inventor by using that:  " + "InvApp.txt" + ". Ignore code descriptions or instructions." + "\",\"temperature\": 0,\"max_tokens\": 1000}", Encoding.UTF8, "application/json");
 
             HttpResponseMessage response = await client.PostAsync("https://api.openai.com/v1/completions", content);
 

@@ -64,15 +64,3 @@ C:\Users\pc\Source\Repos\ChatGPTTrial\obj\Debug\ChatGPTTrial2.csproj.CoreCompile
 C:\Users\pc\Source\Repos\ChatGPTTrial\obj\Debug\ChatGPTTrial2.csproj.CopyComplete
 C:\Users\pc\Source\Repos\ChatGPTTrial\obj\Debug\ChatGPTTrial2.exe
 C:\Users\pc\Source\Repos\ChatGPTTrial\obj\Debug\ChatGPTTrial2.pdb
-C:\Users\ÇağatayKalsan\source\repos\kivanckizildemir\ChatGPTTrial\bin\Debug\Microsoft.CognitiveServices.Speech.core.dll
-C:\Users\ÇağatayKalsan\source\repos\kivanckizildemir\ChatGPTTrial\bin\Debug\Microsoft.CognitiveServices.Speech.extension.audio.sys.dll
-C:\Users\ÇağatayKalsan\source\repos\kivanckizildemir\ChatGPTTrial\bin\Debug\Microsoft.CognitiveServices.Speech.extension.kws.dll
-C:\Users\ÇağatayKalsan\source\repos\kivanckizildemir\ChatGPTTrial\bin\Debug\Microsoft.CognitiveServices.Speech.extension.lu.dll
-C:\Users\ÇağatayKalsan\source\repos\kivanckizildemir\ChatGPTTrial\bin\Debug\Microsoft.CognitiveServices.Speech.extension.codec.dll
-C:\Users\ÇağatayKalsan\source\repos\kivanckizildemir\ChatGPTTrial\bin\Debug\Microsoft.CognitiveServices.Speech.extension.mas.dll
-C:\Users\ÇağatayKalsan\source\repos\kivanckizildemir\ChatGPTTrial\bin\Debug\x86\Microsoft.CognitiveServices.Speech.core.dll
-C:\Users\ÇağatayKalsan\source\repos\kivanckizildemir\ChatGPTTrial\bin\Debug\x86\Microsoft.CognitiveServices.Speech.extension.audio.sys.dll
-C:\Users\ÇağatayKalsan\source\repos\kivanckizildemir\ChatGPTTrial\bin\Debug\x86\Microsoft.CognitiveServices.Speech.extension.kws.dll
-C:\Users\ÇağatayKalsan\source\repos\kivanckizildemir\ChatGPTTrial\bin\Debug\x86\Microsoft.CognitiveServices.Speech.extension.lu.dll
-C:\Users\ÇağatayKalsan\source\repos\kivanckizildemir\ChatGPTTrial\bin\Debug\x86\Microsoft.CognitiveServices.Speech.extension.codec.dll
-C:\Users\ÇağatayKalsan\source\repos\kivanckizildemir\ChatGPTTrial\bin\Debug\x86\Microsoft.CognitiveServices.Speech.extension.mas.dll
