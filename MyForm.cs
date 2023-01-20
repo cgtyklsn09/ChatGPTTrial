@@ -9,20 +9,44 @@ using System.Reflection;
 using System.IO;
 using System.Speech.Recognition;
 
-
 namespace ChatGPTTrial2
 {
     public partial class MyForm : Form
-    {
+    {       
         SpeechRecognitionEngine _recognizer = new SpeechRecognitionEngine();
         // Replace YOUR_API_KEY with your actual API key
         const string API_KEY = "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";
-
         bool _isListening = false;
         public MyForm()
         {
             InitializeComponent();
-            _recognizer.SetInputToDefaultAudioDevice();
+        }
+
+        private void MyForm_Load(object sender, EventArgs e)
+        {
+            try
+            {
+                _recognizer.SetInputToDefaultAudioDevice();
+            }
+            catch
+            {
+                int count = 0;
+                string languagePacks = "";
+                foreach (RecognizerInfo ri in SpeechRecognitionEngine.InstalledRecognizers())
+                {
+                    count++;
+                    languagePacks += count + ")" + ri.Culture.Name + "\n";
+                }
+
+                if (count == 0)
+                    MessageBox.Show("There is no language pack installed on your computer.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Stop);
+                else
+                    MessageBox.Show("Language packs installed on your computer:\n" + languagePacks, "Error", MessageBoxButtons.OK, MessageBoxIcon.Stop);
+
+                Close();
+                return;
+            }
+
             _recognizer.LoadGrammar(new DictationGrammar());
             _recognizer.SpeechRecognized += new EventHandler<SpeechRecognizedEventArgs>(_recognizer_SpeechRecognized);
         }
@@ -46,7 +70,6 @@ namespace ChatGPTTrial2
                 startStopListeningButton.Text = "Stop Listening";
                 _isListening = true;
             }
-
         }
 
         private async void submitButton_Click(object sender, EventArgs e)
@@ -72,7 +95,6 @@ namespace ChatGPTTrial2
             int index = input.IndexOf("public static");
             string output = input.Substring(index);
 
-
             code = File.ReadAllText("Start.txt") + output + File.ReadAllText("End.txt");
             CSharpCodeProvider provider = new CSharpCodeProvider();
             CompilerParameters parameters = new CompilerParameters();
@@ -97,26 +119,7 @@ namespace ChatGPTTrial2
                 Type[] types = assembly.GetTypes();
                 MethodInfo method = types[0].GetMethod("Main");
                 method.Invoke(null, null);
-
             }
         }
-
-        static string GuessCommand(string raw)
-        {
-            Console.WriteLine("---> GPT-3 API Returned Text:");
-            Console.ForegroundColor = ConsoleColor.Yellow;
-            Console.WriteLine(raw);
-
-            var lastIndex = raw.LastIndexOf('\n');
-
-            string guess = raw.Substring(lastIndex + 1);
-
-            Console.ResetColor();
-
-            TextCopy.ClipboardService.SetText(guess);
-
-            return guess;
-        }
-
     }
 }
