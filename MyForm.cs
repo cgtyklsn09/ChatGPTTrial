@@ -15,7 +15,7 @@ namespace ChatGPTTrial2
     public partial class MyForm : Form
     {
         SpeechRecognitionEngine _recognizer = new SpeechRecognitionEngine();
-        const string API_KEY = "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";
+        const string API_KEY = "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";
         bool _isListening = false;
         
         public MyForm()
