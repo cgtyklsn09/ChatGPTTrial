@@ -36,6 +36,9 @@
             // 
             // outputTextBox
             // 
+            this.outputTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.outputTextBox.Location = new System.Drawing.Point(408, 72);
             this.outputTextBox.Name = "outputTextBox";
             this.outputTextBox.ReadOnly = true;
@@ -46,6 +49,7 @@
             // 
             // submitButton
             // 
+            this.submitButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.submitButton.Location = new System.Drawing.Point(663, 43);
             this.submitButton.Name = "submitButton";
             this.submitButton.Size = new System.Drawing.Size(125, 23);
@@ -56,6 +60,7 @@
             // 
             // startStopListeningButton
             // 
+            this.startStopListeningButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.startStopListeningButton.Location = new System.Drawing.Point(663, 10);
             this.startStopListeningButton.Name = "startStopListeningButton";
             this.startStopListeningButton.Size = new System.Drawing.Size(125, 23);
@@ -66,6 +71,8 @@
             // 
             // inputTextBox
             // 
+            this.inputTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
             this.inputTextBox.Location = new System.Drawing.Point(12, 72);
             this.inputTextBox.Name = "inputTextBox";
             this.inputTextBox.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.Vertical;
@@ -83,8 +90,8 @@
             this.Controls.Add(this.submitButton);
             this.Controls.Add(this.outputTextBox);
             this.Name = "MyForm";
+            this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form1";
             this.Load += new System.EventHandler(this.MyForm_Load);
             this.ResumeLayout(false);
 
