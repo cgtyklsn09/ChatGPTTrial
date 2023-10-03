@@ -10,32 +10,26 @@ class Program
             // Get the active Inventor application
             Inventor.Application m_inventorApp = System.Runtime.InteropServices.Marshal.GetActiveObject("Inventor.Application") as Inventor.Application;
 
-            // Get the active document
-            Document activeDoc = m_inventorApp.ActiveDocument;
-
-            // Check if the active document is a part document
-            if (activeDoc.DocumentType == DocumentTypeEnum.kPartDocumentObject)
+            // Check if there is an active document
+            if (m_inventorApp.ActiveDocument != null)
             {
-                PartDocument partDoc = (PartDocument)activeDoc;
+                // Get the active document name
+                string activeDocumentName = m_inventorApp.ActiveDocument.DisplayName;
 
-                // Get the active part component
-                PartComponentDefinition partCompDef = partDoc.ComponentDefinition;
-
-                // Get the number of sketches in the active part component
-                int sketchCount = partCompDef.Sketches.Count;
-
-                // Display the number of sketches
-                Console.WriteLine("Number of sketches in the active part document: " + sketchCount);
+                // Print the active document name
+                Console.WriteLine("Active Document Name: " + activeDocumentName);
             }
             else
             {
-                Console.WriteLine("The active document is not a part document.");
+                Console.WriteLine("No active document found.");
             }
         }
-        catch (System.Exception ex)
+        catch (Exception ex)
         {
-            Console.WriteLine("An error occurred: " + ex.Message);
+            Console.WriteLine("Error: " + ex.Message);
         }
+
+        Console.ReadLine();
     }
 }
 

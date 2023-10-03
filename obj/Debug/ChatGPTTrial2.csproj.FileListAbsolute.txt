@@ -81,3 +81,44 @@ C:\Users\ÇağatayKalsan\source\repos\kivanckizildemir\ChatGPTTrial\bin\Debug\Sy
 C:\Users\ÇağatayKalsan\source\repos\kivanckizildemir\ChatGPTTrial\bin\Debug\System.Text.Encodings.Web.xml
 C:\Users\ÇağatayKalsan\source\repos\kivanckizildemir\ChatGPTTrial\bin\Debug\System.Text.Json.xml
 C:\Users\ÇağatayKalsan\source\repos\kivanckizildemir\ChatGPTTrial\bin\Debug\System.ValueTuple.xml
+C:\Users\ÇağatayKalsan\OneDrive - Codeo\Masaüstü\ChatGPTTrial\bin\Debug\ChatGPTTrial2.exe.config
+C:\Users\ÇağatayKalsan\OneDrive - Codeo\Masaüstü\ChatGPTTrial\bin\Debug\ChatGPTTrial2.exe
+C:\Users\ÇağatayKalsan\OneDrive - Codeo\Masaüstü\ChatGPTTrial\bin\Debug\ChatGPTTrial2.pdb
+C:\Users\ÇağatayKalsan\OneDrive - Codeo\Masaüstü\ChatGPTTrial\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\ÇağatayKalsan\OneDrive - Codeo\Masaüstü\ChatGPTTrial\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\ÇağatayKalsan\OneDrive - Codeo\Masaüstü\ChatGPTTrial\bin\Debug\Newtonsoft.Json.Bson.dll
+C:\Users\ÇağatayKalsan\OneDrive - Codeo\Masaüstü\ChatGPTTrial\bin\Debug\Newtonsoft.Json.dll
+C:\Users\ÇağatayKalsan\OneDrive - Codeo\Masaüstü\ChatGPTTrial\bin\Debug\System.Buffers.dll
+C:\Users\ÇağatayKalsan\OneDrive - Codeo\Masaüstü\ChatGPTTrial\bin\Debug\System.Memory.dll
+C:\Users\ÇağatayKalsan\OneDrive - Codeo\Masaüstü\ChatGPTTrial\bin\Debug\System.Net.Http.Extensions.dll
+C:\Users\ÇağatayKalsan\OneDrive - Codeo\Masaüstü\ChatGPTTrial\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\ÇağatayKalsan\OneDrive - Codeo\Masaüstü\ChatGPTTrial\bin\Debug\System.Net.Http.Json.dll
+C:\Users\ÇağatayKalsan\OneDrive - Codeo\Masaüstü\ChatGPTTrial\bin\Debug\System.Net.Http.Primitives.dll
+C:\Users\ÇağatayKalsan\OneDrive - Codeo\Masaüstü\ChatGPTTrial\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\ÇağatayKalsan\OneDrive - Codeo\Masaüstü\ChatGPTTrial\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\ÇağatayKalsan\OneDrive - Codeo\Masaüstü\ChatGPTTrial\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\ÇağatayKalsan\OneDrive - Codeo\Masaüstü\ChatGPTTrial\bin\Debug\System.Text.Json.dll
+C:\Users\ÇağatayKalsan\OneDrive - Codeo\Masaüstü\ChatGPTTrial\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\ÇağatayKalsan\OneDrive - Codeo\Masaüstü\ChatGPTTrial\bin\Debug\System.ValueTuple.dll
+C:\Users\ÇağatayKalsan\OneDrive - Codeo\Masaüstü\ChatGPTTrial\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\ÇağatayKalsan\OneDrive - Codeo\Masaüstü\ChatGPTTrial\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\ÇağatayKalsan\OneDrive - Codeo\Masaüstü\ChatGPTTrial\bin\Debug\Newtonsoft.Json.xml
+C:\Users\ÇağatayKalsan\OneDrive - Codeo\Masaüstü\ChatGPTTrial\bin\Debug\Newtonsoft.Json.Bson.pdb
+C:\Users\ÇağatayKalsan\OneDrive - Codeo\Masaüstü\ChatGPTTrial\bin\Debug\Newtonsoft.Json.Bson.xml
+C:\Users\ÇağatayKalsan\OneDrive - Codeo\Masaüstü\ChatGPTTrial\bin\Debug\System.Buffers.xml
+C:\Users\ÇağatayKalsan\OneDrive - Codeo\Masaüstü\ChatGPTTrial\bin\Debug\System.Memory.xml
+C:\Users\ÇağatayKalsan\OneDrive - Codeo\Masaüstü\ChatGPTTrial\bin\Debug\System.Net.Http.Json.xml
+C:\Users\ÇağatayKalsan\OneDrive - Codeo\Masaüstü\ChatGPTTrial\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\ÇağatayKalsan\OneDrive - Codeo\Masaüstü\ChatGPTTrial\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\ÇağatayKalsan\OneDrive - Codeo\Masaüstü\ChatGPTTrial\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\ÇağatayKalsan\OneDrive - Codeo\Masaüstü\ChatGPTTrial\bin\Debug\System.Text.Json.xml
+C:\Users\ÇağatayKalsan\OneDrive - Codeo\Masaüstü\ChatGPTTrial\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\ÇağatayKalsan\OneDrive - Codeo\Masaüstü\ChatGPTTrial\bin\Debug\System.ValueTuple.xml
+C:\Users\ÇağatayKalsan\OneDrive - Codeo\Masaüstü\ChatGPTTrial\obj\Debug\ChatGPTTrial2.csproj.AssemblyReference.cache
+C:\Users\ÇağatayKalsan\OneDrive - Codeo\Masaüstü\ChatGPTTrial\obj\Debug\ChatGPTTrial2.MyForm.resources
+C:\Users\ÇağatayKalsan\OneDrive - Codeo\Masaüstü\ChatGPTTrial\obj\Debug\ChatGPTTrial2.Properties.Resources.resources
+C:\Users\ÇağatayKalsan\OneDrive - Codeo\Masaüstü\ChatGPTTrial\obj\Debug\ChatGPTTrial2.csproj.GenerateResource.cache
+C:\Users\ÇağatayKalsan\OneDrive - Codeo\Masaüstü\ChatGPTTrial\obj\Debug\ChatGPTTrial2.csproj.CoreCompileInputs.cache
+C:\Users\ÇağatayKalsan\OneDrive - Codeo\Masaüstü\ChatGPTTrial\obj\Debug\ChatGPTTrial2.csproj.CopyComplete
+C:\Users\ÇağatayKalsan\OneDrive - Codeo\Masaüstü\ChatGPTTrial\obj\Debug\ChatGPTTrial2.exe
+C:\Users\ÇağatayKalsan\OneDrive - Codeo\Masaüstü\ChatGPTTrial\obj\Debug\ChatGPTTrial2.pdb

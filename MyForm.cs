@@ -8,8 +8,6 @@ using System.CodeDom.Compiler;
 using System.Reflection;
 using System.IO;
 using System.Speech.Recognition;
-using System.Threading.Tasks;
-using System.Net.Http.Json;
 using Newtonsoft.Json.Linq;
 
 namespace ChatGPTTrial2
@@ -17,7 +15,7 @@ namespace ChatGPTTrial2
     public partial class MyForm : Form
     {
         SpeechRecognitionEngine _recognizer = new SpeechRecognitionEngine();
-        const string API_KEY = "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";
+        const string API_KEY = "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";
         bool _isListening = false;
         
         public MyForm()
